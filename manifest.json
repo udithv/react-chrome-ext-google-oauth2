@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "[Chrome-Ext-Name]",
+    "description": "A description of your chrome extension",
+    "version": "0.0.0.1",
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": true
+    },
+    "permissions": [
+      "http://localhost:5000/api/current_user"
+    ],
+    "browser_action": {
+      "default_title": "Chrome-ext-google-oauth2",
+      "default_popup": "popup.html"
+    }
+    
+  }
